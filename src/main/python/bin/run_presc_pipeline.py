@@ -1,7 +1,7 @@
 ### Import all the necessary Modules
 import get_all_variables as gav
 from create_objects import get_spark_object
-from validations import get_curr_date
+from validation import get_curr_date
 import sys
 import logging
 import logging.config
