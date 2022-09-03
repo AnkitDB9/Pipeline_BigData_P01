@@ -10,7 +10,7 @@ def get_curr_date(spark):
         print("Error in the method - spark_curr_date(). Please check the Stack Trace. " + str(exp))
         raise
     else:
-        print("Spark object is validated. Spark Object is ready.")
+        print("Spark object iis validated. Spark Object is ready.")
 
 
 
