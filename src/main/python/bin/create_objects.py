@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 import logging
 import logging.config
 
-# Load the Logging Configuration File
+# Load the Logging Configuration File...
 logging.config.fileConfig(fname='../util/logging_to_file.conf')
 logger = logging.getLogger(__name__)
 
