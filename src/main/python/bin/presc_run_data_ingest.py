@@ -7,7 +7,7 @@ logging.config.fileConfig(fname='../util/logging_to_file.conf')
 # Get the custom Logger from Configuration File
 logger = logging.getLogger(__name__)
 
-def load_files(spark, file_dir, file_format, header, inferSchema):
+def load_files(spark, file_dir, file_format, header, inferSchema ):
     try:
         logger.info("load_files() is Started ...")
         if file_format == 'parquet' :
